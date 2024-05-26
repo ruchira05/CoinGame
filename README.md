@@ -11,6 +11,9 @@ GitHub Repo: https://github.com/ruchira05/CoinGame.git
 •	Animations: The character's animations are synced with the movement inputs, including running, and jumping animations.
 •	Sound Effects: Running sound effects are played when the character is moving, and they stop when the character stops moving or is in the air.
 
+`Game Play`
+https://youtu.be/QBD4sa85glk
+
 `Credits`
 
 Player Character: [Mixamo] (https://www.mixamo.com/) | 3D Assets: [Kenney] (https://kenney.nl/assets)
