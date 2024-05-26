@@ -6,7 +6,7 @@ GitHub Repo: https://github.com/ruchira05/CoinGame.git
 
 Project Overview and Functionalities
 
-	It is fun to develop games that we can feel more our creation rather than other applications. I have never experienced before Unity however I know C# and OOP concepts well and it was a huge benefit to develop game logics. “Mixamo” platform is one of a great for game development beginners also I utilized some other 3D models as well. I created some simple animations myself for just try how it works. And the most important thing is understanding the game logic and apply those in practical manner. Therefore, I am excited for contribute to groundbreaking projects in Mix Reality at Expernetic Pvt Ltd.
+It is fun to develop games that we can feel more our creation rather than other applications. I have never experienced before Unity however I know C# and OOP concepts well and it was a huge benefit to develop game logics. “Mixamo” platform is one of a great for game development beginners also I utilized some other 3D models as well. I created some simple animations myself for just try how it works. And the most important thing is understanding the game logic and apply those in practical manner. Therefore, I am excited for contribute to groundbreaking projects in Mix Reality at Expernetic Pvt Ltd.
 
 
 
