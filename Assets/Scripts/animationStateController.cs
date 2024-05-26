@@ -90,7 +90,7 @@ public class AnimationStateController : MonoBehaviour
             if (isJumpPress)
             {
                 yVelocity = 8;
-                jumfForwardForce += zVelocity * Time.deltaTime * 75; // add forword force when jump
+                jumfForwardForce += zVelocity * Time.deltaTime * 250; // add forword force when jump
                 audioManager.PlaySFX(audioManager.jump); // Insert Jump Sound Effect
             }
         }
