@@ -11,14 +11,12 @@ public class AnimationStateController : MonoBehaviour
 
     // Private Variables
     private int zVelocityHash;
-    private int xVelocityHash;
     private int isMoveHash;
     private int isJumpHash;
     private int isBackHash;
     private int isRightHash;
     private int isLeftHash;
     private float zVelocity = 0.0f;
-    private float xVelocity = 0.0f;
     private float yVelocity = 0.0f;
     private bool isGrounded;
     private float jumfForwardForce;
@@ -38,7 +36,6 @@ public class AnimationStateController : MonoBehaviour
 
         //Improve performance, string converted to int data type
         zVelocityHash = Animator.StringToHash("zVelocity");
-        xVelocityHash = Animator.StringToHash("xVelocity");
         isMoveHash = Animator.StringToHash("isMove");
         isJumpHash = Animator.StringToHash("isJump");
         isRightHash = Animator.StringToHash("isRight");
@@ -64,10 +61,10 @@ public class AnimationStateController : MonoBehaviour
         {
             zVelocity += Time.deltaTime * acceleration;
         }
-        if (isBackPress && zVelocity > -1.0f)
-        {
-            zVelocity -= Time.deltaTime * acceleration;
-        }
+        // if (isBackPress && zVelocity > -1.0f)
+        // {
+        //     zVelocity -= Time.deltaTime * acceleration;
+        // }
         // Reduce velocity when free
         if (!isForwardPress && !isBackPress && zVelocity != 0.0f)
         {
@@ -104,7 +101,6 @@ public class AnimationStateController : MonoBehaviour
 
         // Update animator parameters
         animator.SetFloat(zVelocityHash, zVelocity);
-        animator.SetFloat(xVelocityHash, xVelocity);
         animator.SetBool(isMoveHash, isForwardPress);
         animator.SetBool(isJumpHash, isJumpPress);
         animator.SetBool(isRightHash, isRightPress);
